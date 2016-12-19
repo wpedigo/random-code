@@ -1,3 +1,7 @@
 body {
 	background: lightgrey;
 }
+
+ul.firstList {
+	list-style-type: none;
+}
