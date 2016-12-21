@@ -1,0 +1,33 @@
+body {
+	background: lightgrey;
+}
+
+input {
+	outline: none;
+}
+
+.correct {
+	color: green;
+}
+
+.wrong {
+	color: red;
+	background: pink;
+}
+
+.done {
+	color: gray;
+	text-decoration: line-through;
+}
+
+button {
+	outline: none;
+}
+
+.fades div {
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+	float: left;
+	margin: 20px;
+}
