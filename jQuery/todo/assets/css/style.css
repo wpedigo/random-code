@@ -65,6 +65,10 @@ input:focus {
 	outline: none;
 }
 
+.fa {
+	cursor: pointer;
+}
+
 .fa-plus {
 	float: right;
 	margin-top: 5px;
@@ -75,7 +79,6 @@ input:focus {
 	margin: 100px auto;
 	background: #f7f7f7;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
-	cursor: pointer;
 }
 
 .completed {
