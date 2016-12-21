@@ -1,8 +1,8 @@
 body {
 	font-family: Roboto, sans-serif;
-	background: #2BC0E4; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #2BC0E4 , #EAECC6); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #2BC0E4 , #EAECC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #304352 , #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 li {
@@ -75,6 +75,7 @@ input:focus {
 	margin: 100px auto;
 	background: #f7f7f7;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	cursor: pointer;
 }
 
 .completed {
