@@ -1,5 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-	background: lightgrey;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+	height: 100%;
+	display: block;
 	font-family: 'Roboto', sans-serif;
+	background: lightgrey;
+}
+
+img { max-width: 100%;}
+
+// core containers
+app-root {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	sidebar {
+	}
+	.content {
+		height: 100%;
+		overflow-y: auto;
+		padding: 20px;
+	}
 }

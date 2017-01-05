@@ -1,5 +1,13 @@
-.logo-heading {
-	h1 {
-		font-weight: normal;
-	}
+
+.drop-shadow.navbar {
+    -webkit-box-shadow: 0 1px 1px 0px #999;
+    -moz-box-shadow: 0 1px 1px 0px #999;
+    box-shadow: 0 1px 1px 0px #999;
+
+    &:hover {
+    	-webkit-box-shadow: 0 2px 2px 0px #999;
+    	-moz-box-shadow: 0 2px 2px 0px #999;
+    	box-shadow: 0 2px 2px 0px #999;
+    }
 }
+
